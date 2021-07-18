@@ -1,91 +1,102 @@
-*{
+
+  *{
     background-color: whitesmoke;
     padding:1px;
     margin: 1px;
     box-sizing: border-box;
-}
-header
-{
-  padding: 10px;;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  transition: transform 0.5s;
-}
-body
-{
     background-position: center;
 }
-.image1
-{
-    box-sizing: border-box;
-    margin :20px;
-    margin-bottom: 20px;
-}
-.image2
-{
-padding: 20px;
-padding-left: 20px;
-float: left;
-
-}
-.image3
-{
-    padding-bottom: 10px;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-
-.image5
-{
-display:block ;
-margin:auto;
-}
-nav{
+nav {
+    width: 960px;
+    margin: 0 auto;
+    background-color: yellow;
+  }
+  nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
     text-align: center;
-    transition: transform 0.5s;
-    position: sticky;
-    top: 0%;
-    margin:auto;
-    display: inline;
+  }
+  nav li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+    justify-content: space-between;
+
+  }
+
+ 
+
+
+
+ .firstimg{
+    margin-top: 100px;
+    text-align: center;
 }
-a {
+
+.bar {
+    margin-top: 10px;
+    text-align: center;
     display: block;
-    padding: 8px;
+    margin: auto;
+    
 }
-nav,ul,li,a {
-    display: inline;
-    margin-right: 70px;
-    margin-bottom: 20px;
-    text-align: center;
-    box-sizing: border-box;
+.lastimg{
 
+margin-left: 293px;
+margin-top: 30px;
 }
- footer{
+
+.container {
+
+    display: flex;
+    align-items: center;
+}
+.container > div {
+
+
+    flex-basis: 50%;
+}
+.img-col
+{
+    
+    margin-left: 293px;
+    flex-basis: 40%;
+}
+.text-col{
+
+
+margin-right: 370px;
+margin-bottom: 80px;
+}
+
+
+button{
+
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 6px;
+}
+nav ul {
+
+    text-align: center;
+    position: relative;
+    background-color: red;
+    list-style: none;
+}
+
+
+
+footer{
     margin: auto;
     bottom:0;
     width:90%;
     height:100px;
-    background-color: gray;
+    background-color: darkgray;
     margin-bottom: 20px;
 }
-article,p{
-    margin-top: 20px;
-    text-align: justify;
-    padding-left: 20px;
-    width:922px;
-    margin-bottom: 300px;
-
-}
-
-
-.clear{
-
-    clear: both;
-}
-.lorem :hover{
-
-    display: flex;
-    justify-content: space-between;
-}
-
-
