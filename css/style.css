@@ -16,6 +16,7 @@ nav {
     margin-top: 15px;
     margin-right: 30px;
     text-align: center;
+    
   }
   nav li {
     float: left;
@@ -28,26 +29,27 @@ nav {
 
   }
 
- 
 
-
-
- .firstimg{
-    margin-top: 100px;
+.firstimg{
+    margin-top: 120px;
     text-align: center;
 }
 
 .bar {
     margin-top: 10px;
     text-align: center;
-    display: block;
-    margin: auto;
+    margin :right 15px;
+    margin: 25px;
+    justify-content: space-between;
+    padding: 15px;
+
     
 }
 .lastimg{
 
 margin-left: 293px;
-margin-top: 30px;
+margin-top: 300px;
+margin-right: 30px;
 }
 
 .container {
@@ -91,7 +93,6 @@ nav ul {
 }
 
 
-
 footer{
     margin: auto;
     bottom:0;
@@ -99,4 +100,13 @@ footer{
     height:100px;
     background-color: darkgray;
     margin-bottom: 20px;
+    margin-top: 30px;
+}
+header ul li {
+
+    display: inline;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
 }
